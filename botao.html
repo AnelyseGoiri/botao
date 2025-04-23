@@ -20,6 +20,7 @@
     .paginacao {
       display: flex;
       gap: 20px;
+      align-items: center;
     }
 
     .paginacao a {
@@ -37,16 +38,32 @@
       background-color: #ff66b2; /* Rosa neon */
       transform: scale(1.1);
     }
+
+    .setas {
+      font-size: 30px;
+      font-weight: bold;
+      color: #4CAF50;
+      text-decoration: none;
+      padding: 0 20px;
+      cursor: pointer;
+    }
+
+    .setas:hover {
+      color: #ff66b2; /* Rosa neon */
+    }
   </style>
 </head>
 <body>
 
   <div class="paginacao">
+    <a href="https://anelysegoiri.github.io/Gatos/" class="setas">&lt;</a>
     <a href="https://anelysegoiri.github.io/Gatos/">1</a>
     <a href="https://anelysegoiri.github.io/Carta/Tarefa2">2</a>
     <a href="https://anelysegoiri.github.io/MiniJava/miniprojeto">3</a>
+    <a href="https://anelysegoiri.github.io/Carta/Tarefa2" class="setas">&gt;</a>
   </div>
 
 </body>
 </html>
+
 
